@@ -39,7 +39,7 @@
                         </ion-button>
 
                         <ion-button v-if="store.currentApplicant.resume_url" fill="outline" shape="round" size="small"
-                            color="tertiary" :href="store.currentApplicant.resume_url" target="_blank">
+                            color="dark" :href="store.currentApplicant.resume_url" target="_blank">
                             <ion-icon slot="start" :icon="linkOutline"></ion-icon>
                             Lebenslauf-Link
                         </ion-button>
