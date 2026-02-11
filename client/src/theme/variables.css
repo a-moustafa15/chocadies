@@ -1,0 +1,47 @@
+/* For information on how to create your own theme, please refer to:
+http://ionicframework.com/docs/theming/ */
+
+:root {
+  /** * CHOCADIES THEME: "Modern Chocolate"
+   * Background: Clean Standard Grey (Professional)
+   * Primary:    Milk Chocolate (For branding)
+   */
+
+  /* PRIMARY: Rich Milk Chocolate */
+  --ion-color-primary: #5D4037;
+  --ion-color-primary-rgb: 93, 64, 55;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #523830;
+  --ion-color-primary-tint: #6d534b;
+
+  /* SECONDARY: Gold */
+  --ion-color-secondary: #C59D5F;
+  --ion-color-secondary-rgb: 197, 157, 95;
+  --ion-color-secondary-contrast: #000000;
+  --ion-color-secondary-contrast-rgb: 0, 0, 0;
+  --ion-color-secondary-shade: #ad8a54;
+  --ion-color-secondary-tint: #cba76f;
+
+  /* TERTIARY: Soft Beige */
+  --ion-color-tertiary: #D7CCC8;
+  --ion-color-tertiary-rgb: 215, 204, 200;
+  --ion-color-tertiary-contrast: #000000;
+  --ion-color-tertiary-contrast-rgb: 0, 0, 0;
+  --ion-color-tertiary-shade: #bdb4b0;
+  --ion-color-tertiary-tint: #dbd1ce;
+
+  /* BACKGROUNDS - Back to Clean & Professional */
+  
+  /* App Background: Standard Light Grey (Perfect for Cards) */
+  --ion-background-color: #f4f5f8;
+  --ion-background-color-rgb: 244, 245, 248;
+
+  /* Text: Dark Grey (Standard) */
+  --ion-text-color: #333333;
+  --ion-text-color-rgb: 51, 51, 51;
+
+  /* Cards/Items: Pure White */
+  --ion-item-background: #ffffff;
+  --ion-card-background: #ffffff;
+}
