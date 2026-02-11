@@ -46,6 +46,22 @@
                     </div>
                 </ion-card-content>
             </ion-card>
+            <ion-list-header>
+                <ion-label>Motivationsschreiben</ion-label>
+            </ion-list-header>
+
+            <ion-card class="motivation-card">
+                <ion-card-content>
+                    <div v-if="store.currentApplicant.cover_letter" class="cover-letter-text">
+                        {{ store.currentApplicant.cover_letter }}
+                    </div>
+                    <div v-else class="ion-text-center ion-padding">
+                        <p style="color: var(--ion-color-medium); font-style: italic;">
+                            Kein Motivationsschreiben hinterlegt.
+                        </p>
+                    </div>
+                </ion-card-content>
+            </ion-card>
 
             <ion-list-header>
                 <ion-label>Bewertung & Entscheidung</ion-label>
@@ -285,5 +301,19 @@ const getAvatarColor = (name) => {
 
 .footer-actions {
     margin-top: 10px;
+}
+
+.motivation-card {
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    background: #fdfdfd;
+}
+
+.cover-letter-text {
+    white-space: pre-wrap;
+    line-height: 1.6;
+    color: var(--ion-color-dark);
+    font-size: 0.95rem;
+    padding: 8px;
 }
 </style>
