@@ -79,6 +79,14 @@ python manage.py runserver
 The API will be available at: http://127.0.0.1:8000/
 ```
 
+### 📚 API Documentation & Tools:
+
+Swagger UI: `http://127.0.0.1:8000/api/docs/`
+
+OpenAPI Schema: `http://127.0.0.1:8000/api/schema/`
+
+Admin Panel: `http://127.0.0.1:8000/admin/`
+
 ## 📱 Frontend Setup (Ionic Vue)
 
 ### 1. Install Dependencies
